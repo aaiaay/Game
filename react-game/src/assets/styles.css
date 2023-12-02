@@ -4,8 +4,10 @@
 {
     margin: 0;
     padding: 0;
+
     background-color: #201D21;
     color: white;
+
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
     font-size: 24px;
 }
@@ -14,6 +16,7 @@
 {
     margin-left: -10px;
     padding-top: 30px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,14 +25,12 @@
 .left-menu
 {
     max-width: 300px;
+
     margin: 5px 15px;
+
     align-self: flex-start;
     display: flex;
     flex-direction: column;
-}
-
-.message {
-    word-wrap: break-word;
 }
 
 .square
@@ -37,22 +38,10 @@
     margin: 8px;
     width: 200px;
     height: 200px;
+
     border-radius: 15px;
     border: none;
-}
 
-.start-button
-{
-    margin-top: 2px;
-    background-color: transparent;
-    width: 150px;
-    height: 50px;
-    border-radius: 15px;
-    border: 3px solid rgb(195, 102, 195);
-    transition: background-color 0.3s ease-in-out;
-}
-
-.square {
     transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
@@ -61,9 +50,27 @@
     transform: scale(1.01);
 }
 
+.start-button
+{
+    margin-top: 2px;
+    background-color: transparent;
+
+    width: 150px;
+    height: 50px;
+
+    border-radius: 15px;
+    border: 3px solid rgb(195, 102, 195);
+
+    transition: background-color 0.3s ease-in-out;
+}
+
 .start-button:hover {
     cursor: pointer;
     background-color: rgba(195, 102, 195, 0.3);
+}
+
+.message {
+    word-wrap: break-word;
 }
 
 .score

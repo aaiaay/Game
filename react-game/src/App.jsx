@@ -1,8 +1,8 @@
-import SimonGame from "./components/SimonGame"
+import SequenceGame from "./components/SequenceGame"
 
 function App() {
  return (
-  <SimonGame/>
+  <SequenceGame/>
  )
 }
 
